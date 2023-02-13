@@ -1,0 +1,136 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    #intro .intro-info {
+      padding-top: 80px;
+    }
+  
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    #header {
+      height: 70px;
+      padding: 15px 0;
+    }
+  
+    #header .logo h1 {
+      font-size: 28px;
+      padding: 8px 0;
+    }
+  
+    #why-us .why-us-content {
+      padding-top: 30px;
+    }
+  
+    #pricing {
+      padding-bottom: 30px;
+    }
+  
+    #pricing .card {
+      margin-bottom: 50px;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    #header {
+      height: 70px;
+      padding: 15px 0;
+    }
+  
+    #header .logo h1 {
+      font-size: 28px;
+      padding: 8px 0;
+    }
+  
+    #why-us .why-us-content {
+      padding-top: 30px;
+    }
+  
+    #pricing {
+      padding-bottom: 30px;
+    }
+  
+    #pricing .card {
+      margin-bottom: 50px;
+    }
+    
+ }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    #intro {
+      height: auto;
+      padding: 80px 0 60px 0;
+    }
+  
+    #intro .container {
+      height: auto !important;
+    }
+  
+    #intro .intro-img {
+      width: 80%;
+    }
+  
+    #intro .intro-info {
+      text-align: center;
+      padding-top: 40px;
+    }
+  
+    #intro .intro-info h2 {
+      font-size: 34px;
+      margin-bottom: 30px;
+    }
+  
+    .section-header p {
+      width: 100%;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    #footer .footer-top .social-links a {
+      margin-bottom: 25px;
+    }
+    
+  }
